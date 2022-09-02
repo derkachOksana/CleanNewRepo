@@ -21,7 +21,7 @@ jobs:
           java-version: 11
           
       - name: Build project with Maven
-        run: mvn clean test
+        run: mvn test
 
 
       # Runs a set of commands using the runners shell
