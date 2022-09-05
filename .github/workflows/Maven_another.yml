@@ -28,5 +28,5 @@ jobs:
     - name: Deploy repor
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.SECRET_FOR_GITHUB }}
         publish_dir: ./src/test/reports
